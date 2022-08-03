@@ -1,0 +1,10 @@
+<view>
+  <view class="subsidy-header-bg"></view>
+  <view class="subsidy-apps-list">
+    <view class="subsidy-apps-item" a:for="{{menus}}" onTap="pageTo" data-url="{{item.url}}">
+      <view><image src="{{item.icon}}" mode="scaleToFill" class="logo" style="height:48rpx;width:48rpx"/></view>
+      <view class="app-name">{{item.name}}</view>
+    </view>
+  </view>
+  <view style="position:fixed;bottom:10px;left:45%;right:45%;color:#666">{{version}}</view>
+</view>
