@@ -15,13 +15,13 @@
     "backgroundColor": "#F5F5F9",
     "items": [
       {
-        "pagePath": "page/demo/index",
+        "pagePath": "page/stroke-position/index",
         "icon": "image/tab/bar-02-default.png",
         "activeIcon": "image/tab/bar-02-hover.png",
         "name": "Tab1"
       },
       {
-        "pagePath": "page/demo/index",
+        "pagePath": "page/subsidy/index",
         "icon": "image/tab/bar-01-default.png",
         "activeIcon": "image/tab/bar-01-hover.png",
         "name": "Tab2"
